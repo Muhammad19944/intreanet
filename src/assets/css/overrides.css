@@ -1,0 +1,166 @@
+
+.v-application,
+.v-text-field input,
+.v-application a {
+	color: var(--text-2) !important;
+}
+
+.v-input--dense input {
+	font-size: 14px;
+}
+
+.v-btn {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.v-btn__content, .v-label, .v-data-table > .v-data-table__wrapper > table > thead > tr > th,
+.v-chip {
+	font-family: var(--font-medium);
+}
+
+.v-label {
+	font-size: 14px !important;
+}
+
+.v-data-table {
+	background-color: var(--bg-4) !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.v-data-table > .v-data-table__wrapper > table > thead > tr:last-child > th {
+	border-bottom: none !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > thead > tr > th {
+	font-weight: normal;
+}
+
+.v-data-table > .v-data-table__wrapper > table > thead > tr:last-child > th {
+	background: var(--bg-3);
+}
+
+.v-data-table > .v-data-table__wrapper > table > thead > tr:last-child > th:first-child {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.v-data-table > .v-data-table__wrapper > table > thead > tr:last-child > th:last-child {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.v-list-item {
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.v-expansion-panel:not(:first-child)::after {
+	border-color: var(--border-color) !important;
+}
+
+.v-navigation-drawer__border {
+	background-color: var(--border-color) !important;
+}
+
+.v-application .v-menu__content {
+	box-shadow: var(--shadow-1);
+}
+
+.v-calendar-events .v-event-more {
+	background-color: var(--bg-2) !important;
+}
+
+.v-calendar.v-calendar-events .v-calendar-weekly__day {
+	margin-right: 0 !important;
+}
+
+.v-calendar-weekly {
+	border-radius: 15px;
+	border: 1px solid var(--border-color);
+	overflow: hidden;
+}
+
+.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+	color: var(--text-4) !important;
+}
+
+.app-drawer .content-list .v-list-item--active,
+.app-drawer .content-list .v-list-item--active:hover {
+	background: #1A5CFF;
+	box-shadow: 0 0 10px 1px rgba(26, 92, 255, 0.7);
+}
+
+.app-drawer .content-list a,
+.app-drawer .v-list-item__title,
+.app-drawer .sidebar-icons {
+	transition: all 400ms;
+}
+
+.app-drawer .content-list a:hover {
+	background: var(--border-color);
+}
+
+.app-drawer .v-list-item--link:before {
+	opacity: 0 !important;
+}
+
+.app-drawer .v-list-item--active .sidebar-icons,
+.app-drawer .v-list-item--active .v-list-item__title,
+.app-drawer .content-list .v-list-item--active .v-list-item__title span,
+.app-drawer .v-list .v-list-item--active .v-icon {
+	color: #fff !important;
+}
+
+.app-collapse .v-expansion-panel::before {
+	box-shadow: none
+}
+
+.app-collapse .v-expansion-panels.v-expansion-panels--focusable .v-expansion-panel-header--active::before{
+	opacity: 0.08 !important;
+}
+
+.app-collapse .v-expansion-panel-header {
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+}
+
+.app-collapse .theme--dark.v-expansion-panels .v-expansion-panel,
+.theme--dark.v-list,
+.v-calendar-weekly__head-weekday {
+	background-color: var(--bg-4) !important;
+}
+
+.v-calendar-weekly__head-weekday {
+	border-right: 1px solid var(--border-color) !important;
+	border-bottom: 1px solid var(--border-color) !important;
+	margin-right: 0 !important;
+}
+
+.v-calendar-weekly__head-weekday:last-child,
+.v-calendar-weekly__week .v-calendar-weekly__day:last-child {
+	border-right: none !important;
+}
+
+.v-calendar-weekly__week:last-child .v-calendar-weekly__day {
+	border-bottom: none !important;
+}
+
+.v-calendar-weekly__head-weekday {
+	font-family: var(--font-semibold);
+}
+
+.v-calendar .v-event-more {
+	font-family: var(--font-semibold);
+}
+
+.v-calendar-weekly__day:hover {
+	background: var(--bg-3);
+}
+
+.v-tabs-slider {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 75% !important;
+	margin: auto;
+}

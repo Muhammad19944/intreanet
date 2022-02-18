@@ -1,0 +1,310 @@
+
+.heading-7 {
+	font-size: 26px;
+}
+
+.heading-8 {
+	font-size: 24px;
+}
+
+.heading-9 {
+	font-size: 22px;
+}
+
+.small-1 {
+	font-size: 16px;
+}
+
+.small-2 {
+	font-size: 14px;
+}
+
+.small-3 {
+	font-size: 12px;
+}
+
+.tiny {
+	font-size: 10px;
+}
+
+.w-100,
+.object-cover {
+	width: 100%;
+}
+
+.h-100,
+.object-cover {
+	height: 100%;
+}
+
+.height-scroll {
+	height: 1px;
+}
+
+.object-cover {
+	object-fit: cover;
+}
+
+.p-fixed {
+	position: fixed;
+}
+
+.p-relative {
+	position: relative;
+}
+
+.p-absolute {
+	position: absolute;
+}
+
+.p-sticky {
+	position: sticky;
+}
+
+.border-all {
+	border: 1px solid var(--border-color);
+}
+
+.border-top {
+	border-top: 1px solid var(--border-color);
+}
+
+.border-right {
+	border-right: 1px solid var(--border-color);
+}
+
+.border-left {
+	border-left: 1px solid var(--border-color);
+}
+
+.border-bottom {
+	border-bottom: 1px solid var(--border-color);
+}
+
+.primary-bg {
+	background: var(--primary-1);
+}
+
+.primary-text {
+	color: var(--primary-1);
+}
+
+.success-bg {
+	background: rgba(var(--primary-2), 1);
+}
+
+.success-text {
+	color: var(--primary-2)
+}
+
+.warning-bg {
+	background: var(--primary-3);
+}
+
+.warning-text {
+	color: var(--primary-3);
+}
+
+.error-bg {
+	background: rgba(var(--primary-4), 1);
+}
+
+.error-text {
+	color: var(--primary-4);
+}
+
+.secondary-1 {
+	background: var(--secondary-1);
+}
+
+.secondary-2 {
+	background: var(--secondary-2);
+}
+
+.secondary-3 {
+	background: var(--secondary-3);
+}
+
+.secondary-4 {
+	background: var(--secondary-4);
+}
+
+.transparent-1 {
+	background: var(--transparent-1);
+}
+
+.transparent-2 {
+	background: var(--transparent-2);
+}
+
+.transparent-3 {
+	background: var(--transparent-3);
+}
+
+.transparent-4 {
+	background: var(--transparent-4);
+}
+
+.text-1 {
+	color: var(--text-1);
+}
+
+.text-2 {
+	color: var(--text-2);
+}
+
+.text-3 {
+	color: var(--text-3);
+}
+
+.text-4 {
+	color: var(--text-4);
+}
+
+.text-white {
+	color: #fff;
+}
+
+.bg-1 {
+	background: var(--bg-1);
+}
+
+.bg-2 {
+	background: var(--bg-2);
+}
+
+.bg-3 {
+	background: var(--bg-3);
+}
+
+.bg-4 {
+	background: var(--bg-4);
+}
+
+.bg-transparent {
+	background: transparent !important;
+}
+
+.primary-shadow {
+	box-shadow: 0 0 10px 1px rgba(26, 92, 255, 0.7);
+}
+
+.shadow-sm {
+	box-shadow: 0 .1rem 1.5rem .25rem rgba(0,0,0,.04) !important;
+}
+
+.shadow-1 {
+	box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+	box-shadow: var(--shadow-2);
+}
+
+.shadow-3 {
+	box-shadow: var(--shadow-3);
+}
+
+.shadow-4 {
+	box-shadow: var(--shadow-4);
+}
+
+.danger-shadow {
+	box-shadow: var(--danger-shadow);
+}
+
+.primary-shadow {
+	box-shadow: var(--primary-shadow);
+}
+
+.success-shadow {
+	box-shadow: var(--success-shadow);
+}
+
+.warning-shadow {
+	box-shadow: var(--warning-shadow);
+}
+
+.danger-button-shadow {
+	box-shadow: var(--danger-button-shadow);
+}
+
+.primary-button-shadow {
+	box-shadow: var(--primary-button-shadow);
+}
+
+.success-button-shadow {
+	box-shadow: var(--success-button-shadow);
+}
+
+.warning-button-shadow {
+	box-shadow: var(--warning-button-shadow);
+}
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .4s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+	opacity: 0;
+}
+
+.transition-all {
+	transition: all 400ms;
+}
+
+.line-base {
+	line-height: 1;
+}
+
+.outline-transparent {
+	outline: transparent;
+}
+
+.rounded-15 {
+	border-radius: 15px !important;
+}
+
+.rounded-20 {
+	border-radius: 20px !important;
+}
+
+.not-allowed {
+	pointer-events: none;
+}
+
+.not-allowed.disabled {
+	opacity: 0.5;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.gap-medium {
+	grid-gap: 1.5rem;
+}
+
+.font-300 {
+	font-family: var(--font-light);
+}
+
+.font-400 {
+	font-family: var(--font-regular);
+}
+
+.font-500 {
+	font-family: var(--font-medium);
+}
+
+.font-600 {
+	font-family: var(--font-semibold);
+}
+
+.font-700 {
+	font-family: var(--font-bold);
+}

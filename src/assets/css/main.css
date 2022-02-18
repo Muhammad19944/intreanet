@@ -1,0 +1,122 @@
+@import "helpers.css";
+@import "fonts.css";
+@import "overrides.css";
+
+:root {
+	--font-light: "Montserrat-Light";
+	--font-regular: "Montserrat-Regular";
+	--font-medium: "Montserrat-Medium";
+	--font-semibold: "Montserrat-SemiBold";
+	--font-bold: "Montserrat-Bold";
+
+	--primary-1: #1A5CFF;
+	--primary-2: #38CB89;
+	--primary-3: #FFAB00;
+	--primary-4: #FF5630;
+
+	--secondary-1: #E1ECFF;
+	--secondary-2: #E5F6EF;
+	--secondary-3: #FDF4E0;
+	--secondary-4: #FFE6E0;
+
+	--transparent-1: #F4F8FF;
+	--transparent-2: #F5FCF9;
+	--transparent-3: #FFFBF1;
+	--transparent-4: #FFF6F4;
+
+	--text-1: #323B4B;
+	--text-2: #4E5D78;
+	--text-3: #8A94A6;
+	--text-4: #B0B7C3;
+	--text-5: #FFF;
+
+	--bg-1: #C1C7D0;
+	--bg-2: #EBECF0;
+	--bg-3: #F8F8F8;
+	/*--bg-3: #FAFBFC;*/
+	--bg-4: #FFFFFF;
+
+	--shadow-1: 0px 23px 44px rgba(3, 8, 17, 0.14);
+	--shadow-2: 0px 33px 62px rgba(3, 8, 17, 0.24);
+	--shadow-3: 0px 44px 65px rgba(3, 8, 17, 0.19);
+	--shadow-4: 0px 50px 77px rgba(3, 8, 17, 0.22);
+
+	--danger-shadow: 0px 12px 23px rgba(255, 86, 48, 0.06);
+	--primary-shadow: 0px 12px 23px rgba(55, 125, 255, 0.06);
+	--success-shadow: 0px 12px 23px rgba(56, 203, 137, 0.06);
+	--warning-shadow: 0px 12px 23px rgba(255, 171, 0, 0.06);
+
+	--danger-button-shadow: 0px 19px 20px rgba(255, 86, 48, 0.17);
+	--primary-button-shadow: 0px 19px 20px rgba(55, 125, 255, 0.17);
+	--success-button-shadow: 0px 19px 20px rgba(56, 203, 137, 0.17);
+	--warning-button-shadow: 0px 19px 20px rgba(255, 171, 0, 0.17);
+
+	--shadow-small-tooltip: 0px 4px 4px rgba(3, 8, 17, 0.17);
+	--shadow-tooltip: 0px 9px 15px rgba(3, 8, 17, 0.14);
+
+	--border-color: #f3f3f3;
+
+	--chat-area-bg: #f2f0f7;
+}
+
+[v-theme = dark] {
+	--font-semibold: "Montserrat-Medium";
+
+	--secondary-1: rgba(55, 125, 255, 0.3);
+	--secondary-2: rgba(56, 203, 137, 0.3);
+	--secondary-3: rgba(255, 171, 0, 0.3);
+	--secondary-4: rgba(255, 86, 48, 0.3);
+
+	--transparent-1: rgba(55, 125, 255, 0.15);
+	--transparent-2: rgba(56, 203, 137, 0.15);
+	--transparent-3: rgba(255, 171, 0, 0.15);
+	--transparent-4: rgba(255, 86, 48, 0.15);
+
+	--text-1: #FFFFFF;
+	--text-2: #EEF1F5;
+	--text-3: #8A94A6;
+	--text-4: #B0B7C3;
+
+	--bg-1: #C1C7D0;
+	--bg-2: #2F3746;
+	--bg-3: #232A37;
+	--bg-4: #161C27;
+
+	--border-color: #2f3746;
+
+	--chat-area-bg: #1e232f;
+}
+
+html {
+	overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--bg-3);
+	/*border-radius: 15px;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--bg-2);
+	border-radius: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.aside-width-300 {
+	width: 300px;
+}
+
+.aside-width-380 {
+	width: 380px;
+}

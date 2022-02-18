@@ -1,0 +1,148 @@
+
+$body-font-family: var(--font-regular);
+
+$material-light: (
+        'background': var(--bg-4),
+        'app-bar': var(--bg-4),
+        'navigation-drawer': var(--bg-4),
+        'picker': (
+                'body': var(--bg-4)
+        ),
+        'calendar': (
+                'background-color': var(--bg-4),
+                'outside-background-color': var(--bg-3),
+                'line-color': var(--border-color),
+                //'interval-color': #ff2200,
+                //'interval-line-color': #dd8800
+        ),
+        'table': (
+                'hover': var(--bg-3)
+        ),
+        'dividers': var(--border-color),
+        'text-fields': (
+                'outlined': var(--bg-2),
+                'outlined-hover': var(--bg-2)
+        ),
+        'cards': var(--bg-4),
+        'tabs': var(--text-2),
+        'text': (
+                'link': var(--text-2)
+        )
+);
+
+$material-dark: (
+        'background': var(--bg-4),
+        'app-bar': var(--bg-4),
+        'navigation-drawer': var(--bg-4),
+        'picker': (
+                'body': var(--bg-4)
+        ),
+        'calendar': (
+                'background-color': var(--bg-4),
+                'outside-background-color': var(--bg-3),
+                'line-color': var(--border-color),
+                //'interval-color': #ff2200,
+                //'interval-line-color': #dd8800
+        ),
+        'table': (
+                'hover': var(--bg-3)
+        ),
+        'icons': (
+                'active': var(--text-4)
+        ),
+        'dividers': var(--border-color),
+        'text-fields': (
+                'outlined': var(--bg-2),
+                'outlined-hover': var(--bg-2)
+        ),
+        'cards': var(--bg-4),
+        'tabs': var(--text-2),
+        'text': (
+                'link': var(--text-2)
+        )
+);
+
+$grid-breakpoints: (
+        'lg': 1424px - 24px
+);
+
+$container-max-widths: (
+        'lg': 1224px,
+);
+
+$tabs-item-letter-spacing: 0;
+$tab-font-size: 0.9rem;
+
+$chip-label-border-radius: 15px;
+
+$text-field-border-radius: 15px;
+
+$data-table-regular-header-font-size: 14px;
+
+$pagination-item-height: 40px;
+$pagination-item-min-width: 40px;
+$pagination-more-height: 40px;
+$pagination-more-min-width: 40px;
+$pagination-navigation-height: 40px;
+$pagination-navigation-width: 40px;
+$pagination-item-font-size: 14px;
+
+$calendar-weekly-weekday-padding: 12px;
+$calendar-weekly-day-padding: 4px;
+$calendar-weekly-day-label-margin: 4px 0 4px 0;
+$calendar-weekly-day-label-font-size: 14px;
+
+$date-picker-header-padding: 0;
+$date-picker-table-padding: 0;
+
+$expansion-panel-header-padding: 16px;
+$expansion-panel-active-header-min-height: auto;
+$expansion-panel-active-margin: 0;
+$expansion-panel-content-padding: 0;
+
+$list-item-title-font-size: 14px;
+$list-item-padding: 0 12px;
+
+$btn-text-transform: initial;
+$btn-letter-spacing: 0;
+$btn-border-radius: 15px;
+//$btn-hover-opacity: 0;
+
+$btn-sizes: (
+        'small': 38,
+        'default': 43,
+        'large': 51
+);
+
+$btn-font-sizes: (
+        'small': 14px,
+        'default': 14px,
+        'large': 14px
+);
+
+$headings: (
+        'h1': (
+                'size': 80px
+        ),
+        'h2': (
+                'size': 60px
+        ),
+        'h3': (
+                'size': 48px
+        ),
+        'h4': (
+                'size': 40px
+        ),
+        'h5': (
+                'size': 32px
+        ),
+        'h6': (
+                'size': 28px
+        ),
+        'body-1' : (
+                'size' : 20px
+        ),
+        'body-2' : (
+                'size' : 18px
+        )
+);

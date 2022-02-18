@@ -1,0 +1,41 @@
+{
+  "name": "new-intranet-github",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "i18n:report": "vue-cli-service i18n:report --src \\\"./src/**/*.?(js|vue)\\\" --locales \\\"src/locales/**/*.json\\\""
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.28.0",
+    "lodash": "^4.17.21",
+    "register-service-worker": "^1.7.1",
+    "v-mask": "^2.3.0",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.26.3",
+    "vue-router": "^3.2.0",
+    "vue-toastification": "^1.7.14",
+    "vue2-perfect-scrollbar": "^1.5.2",
+    "vuelidate": "^0.7.7",
+    "vuetify": "^2.6.2",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.12.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-axios": "^0.0.4",
+    "vue-cli-plugin-i18n": "^2.3.1",
+    "vue-cli-plugin-vuetify": "^2.4.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  }
+}

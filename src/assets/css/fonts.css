@@ -1,0 +1,283 @@
+
+@font-face {
+	font-family: 'Montserrat-Light';
+	font-style: normal;
+	font-weight: 300;
+	src: local(''),
+	url('../fonts/Montserrat-Light.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/Montserrat-Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+	url('../fonts/Montserrat-Regular.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/Montserrat-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''),
+	url('../fonts/Montserrat-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/Montserrat-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''),
+	url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/Montserrat-SemiBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''),
+	url('../fonts/Montserrat-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/Montserrat-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+	font-family: "Material Design Icons";
+	src: url("../fonts/MaterialDesignIcons.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal
+}
+
+.mdi::before,
+.mdi-set {
+	display: inline-block;
+	font: normal normal normal 24px/1 "Material Design Icons";
+	font-size: inherit;
+	text-rendering: auto;
+	line-height: inherit;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing :grayscale
+}
+
+.mdi-checkbox-marked::before {
+	content: "\F0132"
+}
+
+.mdi-checkbox-blank-outline::before {
+	content: "\F0131"
+}
+
+.mdi-close-box::before {
+	content: "\F0157"
+}
+
+.mdi-close-circle::before {
+	content: "\F0159";
+}
+
+.mdi-checkbox-marked-circle::before {
+	content: "\F0133"
+}
+
+.mdi-logout-variant::before {
+	content: "\F05FD"
+}
+
+.mdi-alert-circle-outline::before {
+	content: "\F05D6"
+}
+
+.mdi-chevron-left::before {
+	content: "\F0141"
+}
+
+.mdi-chevron-right::before {
+	content: "\F0142"
+}
+
+.mdi-chevron-down::before {
+	content: "\F0140"
+}
+
+.mdi-account-outline::before {
+	content: "\F0013"
+}
+
+.mdi-close::before {
+	content: "\F0156"
+}
+
+.mdi-trash-can-outline::before {
+	content: "\F0A7A"
+}
+
+.mdi-plus-circle-outline::before {
+	content: "\F0419"
+}
+
+.mdi-checkbox-blank-circle-outline::before {
+	content: "\F0130"
+}
+
+.mdi-dots-vertical-circle-outline::before {
+	content: "\F0B8E"
+}
+
+.mdi-file-document-outline::before {
+	content: "\F09EE";
+}
+
+.mdi-calendar::before {
+	content: "\F00ED";
+}
+
+.mdi-radiobox-marked::before {
+	content: "\F043E";
+}
+
+.mdi-radiobox-blank::before {
+	content: "\F043D";
+}
+
+.mdi-image::before {
+	content: "\F02E9";
+}
+
+.mdi-clipboard-search::before {
+	content: "\F161E";
+}
+
+.mdi-clipboard-search-outline::before {
+	content: "\F161F";
+}
+
+.mdi-table-search::before {
+	content: "\F090F";
+}
+
+.mdi-arrow-up::before {
+	content: "\F005D";
+}
+
+.mdi-arrow-down::before {
+	content: "\F0045";
+}
+
+.mdi-menu::before {
+	content: "\F035C";
+}
+
+.mdi-menu-down::before {
+	content: "\F035D";
+}
+
+.mdi-home-outline::before {
+	content: "\F06A1";
+}
+
+.mdi-calendar-month-outline::before {
+	content: "\F0E18";
+}
+
+.mdi-star-outline::before {
+	content: "\F04D2";
+}
+
+.mdi-clipboard-text-outline::before {
+	content: "\F0A38";
+}
+
+.mdi-text-box-outline::before {
+	content: "\F09ED";
+}
+
+.mdi-clipboard-edit-outline::before {
+	content: "\F14E6";
+}
+
+.mdi-file-export-outline::before {
+	content: "\F102E";
+}
+
+.mdi-file-import-outline::before {
+	content: "\F102F";
+}
+
+.mdi-file-plus-outline::before {
+	content: "\F0EED";
+}
+
+.mdi-send::before {
+	content: "\F048A";
+}
+
+.mdi-email-receive-outline::before {
+	content: "\F10DB";
+}
+
+.mdi-email-send-outline::before {
+	content: "\F10DD";
+}
+
+.mdi-clipboard-account-outline::before {
+	content: "\F0C55";
+}
+
+.mdi-clipboard-check-outline::before {
+	content: "\F08A8";
+}
+
+.mdi-bell-outline::before {
+	content: "\F009C";
+}
+
+.mdi-camera::before {
+	content: "\F0100";
+}
+
+.mdi-phone-outline::before {
+	content: "\F0DF0";
+}
+
+.mdi-office-building-marker-outline::before {
+	content: "\F1521";
+}
+
+.mdi-briefcase-outline::before {
+	content: "\F0814";
+}
+
+.mdi-message-outline::before {
+	content: "\F0365";
+}
+
+.mdi-magnify::before {
+	content: "\F0349";
+}
+
+.mdi-paperclip::before {
+	content: "\F03E2";
+}
+
+.mdi-account-group-outline::before {
+	content: "\F0B58";
+}
+
+.mdi-cloud-download-outline::before {
+	content: "\F0B7D";
+}
+
+.mdi-deskphone::before {
+	content: "\F01C3";
+}
+
+.mdi-delete-outline::before {
+	content: "\F09E7";
+}
+
+.mdi-email-outline::before {
+	content: "\F01F0";
+}
